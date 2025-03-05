@@ -1,0 +1,7 @@
+name = "LearningGridap"
+uuid = "138e6656-d2bc-40af-ba54-06edf3ab35ed"
+authors = ["Javier Principe"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.11.1"
