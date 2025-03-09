@@ -6,7 +6,8 @@ The first step is to clone this repo
 ```
 $ git clone https://github.com/principejavier/LearningGridap
 ```
-and then follow the instructions in the these sections, in order:
+and then follow the instructions on each section.
 
-1. [Runing problems with Gridap without plugins](./NoPlugins/README.md)
+# Contents
 
+1. [Solving PDEs with Cartesian grids using Gridap without plugins](./NoPlugins/README.md)
