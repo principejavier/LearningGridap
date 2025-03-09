@@ -20,9 +20,8 @@ write(index_dst,str[1:minimum(findfirst("# Contents",str))-1])
 for (s,d) in zip(sources,docs)
     src = joinpath(@__DIR__,"..",s)
     dst = joinpath(@__DIR__,d)
-    # println("Source ",src)
-    # println("Destination ",dst)
-    write(dst,replace(open(io->read(io,String),src),"(./"=>"(https://github.com/principejavier/LearningGridap/docs/build/"))
+    dir = dirname(s)
+    write(dst,replace(open(io->read(io,String),src),"(./"=>"(https://github.com/principejavier/LearningGridap/tree/main/$dir/"))
 end
 
 makedocs(;
